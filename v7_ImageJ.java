@@ -1,7 +1,7 @@
 IJ.run("ROI Manager...", "");
-rm.runCommand("Save", "C:\\Users\\alajevardipour\\Documents\\MyPhD\\Microscopy Data\\2014 Protein Structure\\S124\\RoiSet.zip");
+rm.runCommand("Save", "C:\\Users\\admin\\Documents\\MyPhD\\Microscopy Data\\2014 Protein Structure\\S124\\RoiSet.zip");
 
-imp = IJ.openImage("C:\\Users\\alajevardipour\\Documents\\MyPhD\\Microscopy Data\\2014 Protein Structure\\S124\\Image0002.oib");
+imp = IJ.openImage("C:\\Users\\admin\\Documents\\MyPhD\\Microscopy Data\\2014 Protein Structure\\S124\\Image0002.oib");
 rm.runCommand("Show All with labels");
 rm.runCommand("Show All");
 
@@ -12,7 +12,7 @@ rm.runCommand("Show None");
 rm.runCommand("Deselect");
 
 IJ.run(imp, "Plot Z-axis Profile", "");
-IJ.saveAs(imp, "Jpeg", "C:\\Users\\alajevardipour\\Documents\\MyPhD\\Microscopy Data\\2014 Protein Structure\\S124\\Image0002-1.tif-0-0.jpg");
+IJ.saveAs(imp, "Jpeg", "C:\\Users\\admin\\Documents\\MyPhD\\Microscopy Data\\2014 Protein Structure\\S124\\Image0002-1.tif-0-0.jpg");
 imp.close();
 IJ.run("Stack to Images", "");
 IJ.run("FD Math...", "image1=Image0002-1-0001 operation=Correlate image2=Image0002-1-0001 result=[FD Math 01] do");
@@ -27,7 +27,7 @@ IJ.run(imp, "Measure", "");
 IJ.run(imp, "Measure", "");
 IJ.run(imp, "Measure", "");
 IJ.run("Input/Output...", "jpeg=100 gif=-1 file=.csv save_column save_row");
-IJ.saveAs("Results", "C:\\Users\\alajevardipour\\Documents\\MyPhD\\Microscopy Data\\2014 Protein Structure\\S124\\Results.csv");
+IJ.saveAs("Results", "C:\\Users\\admin\\Documents\\MyPhD\\Microscopy Data\\2014 Protein Structure\\S124\\Results.csv");
 imp.close();
 
 IJ.run("Input/Output...", "jpeg=100 gif=-1 file=.csv save_column save_row");
