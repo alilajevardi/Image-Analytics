@@ -132,32 +132,3 @@ for (img=0; img<list1.length; img++) {
            print(list1[img]);
            };
  };
-
-
-//roiManager("Save", sdir+"RoiSet"+"_"+SampleStackName+".zip");
-
-
-
- 
-//close(SampleStackNameFull);
-
-
-
-
-
-
-
-	
-
-
-
-
-
-//saveAs("Results", "C:\\Users\\alajevardipour\\Documents\\My PhD\\Microscopy Data\\2014 Protein Structure\\2014.03.25\\S69\\Profile_S69_Image0016_ROI_1.xls");
-//run("Clear Results");
-
-
-//run("Select None");
-//run("Select All");
-
-
